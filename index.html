@@ -1,0 +1,31 @@
+<!Doctype html>
+<html>
+<link rel="stylesheet" href="style.css">
+<script src="script2.js"></script>
+<body class="back">
+
+
+<h1 id="h1">Docker GO</h1>
+
+<div class="btn-group">
+  <button onclick="lw('docker images')">Images</button>
+  <button onclick="lw('docker ps')">Running Containers</button>
+  <button onclick="lw('docker ps -a')">All Containers</button>
+  <button onclick="lw1('Enter image:tag')">Launch</button>
+  <button onclick="lw1('Enter container name/ID to remove')">Remove</button>
+</div>
+
+<div id="d1">
+  <p id="p1">Enter your command here : </p>
+  <input id="in1">	
+  <button id="bt1" onclick='lw();'>Click here</button>
+</div>
+<div>
+  <pre id="id1">your output will be printed here</pre>
+
+</div>
+
+</body>
+</html>
+
+
